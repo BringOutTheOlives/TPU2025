@@ -45,6 +45,15 @@ input[type=submit]:hover {
     gap: 5px;
   }
 
+  .textcontent:first-of-type{
+    background-color: rgb(107, 202, 107);
+  }
+
+  
+  .textcontent:nth-of-type(2){
+    background-color: rgb(156, 224, 245);
+  }
+
   .item{
     display: flex;
     flex-direction: row;
