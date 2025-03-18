@@ -42,3 +42,8 @@ input[type=submit]:hover {
     padding: 5px 0px 0px 10px;
     gap: 5px;
   }
+
+  .item{
+    display: flex;
+    flex-direction: row;
+  }
