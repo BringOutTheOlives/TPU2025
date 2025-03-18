@@ -32,3 +32,13 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
   }
+
+  .answersbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: left;
+    padding: 5px 0px 0px 10px;
+    gap: 5px;
+  }
