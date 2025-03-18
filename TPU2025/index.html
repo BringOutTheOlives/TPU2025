@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>Document</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="container">
-      <form action="./PHP/submit.php" method="POST">
-        
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name..." />
+        <form action="./PHP/submit.php" method="POST">
 
-        <label for="subject">Subject</label>
-        <input
-          type="text"
-          id="subject"
-          name="subject"
-          placeholder="Subject"
-        />
-        <label for="description">Short Description</label>
-        <textarea
-          id="description"
-          name="description"
-          placeholder="What is the issue?"
-          style="height: 200px"
-        ></textarea>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name..." />
 
-        <input type="submit" value="Submit" />
-      </form>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" />
+            <label for="description">Short Description</label>
+            <textarea id="description" name="description" placeholder="What is the issue?"
+                style="height: 200px"></textarea>
+
+            <input type="submit" value="Submit" />
+        </form>
     </div>
     <div class="answersbox">
-      <div class="item">Name: Lorem Subject: Ipsum Description: Wtedhylyg</div>
-      <div class="item">Name: Lorem Subject: Ipsum Description: Wtedhylyg</div>
-      <div class="item">Name: Lorem Subject: Ipsum Description: Wtedhylyg</div>
+        <div class="item">
+            <div class="textcontent">Name: Lorem</div>
+            <div class="textcontent">Subject: Ipsum</div>
+            <div class="textcontent">Description: Wtedhylyg</div>
+        </div>
+        <div class="item">
+            <div class="textcontent">Name: Lorem</div>
+            <div class="textcontent">Subject: Ipsum</div>
+            <div class="textcontent">Description: Wtedhylyg</div>
+        </div>
+        <div class="item">
+            <div class="textcontent">Name: Lorem</div>
+            <div class="textcontent">Subject: Ipsum</div>
+            <div class="textcontent">Description: Wtedhylyg</div>
+        </div>
     </div>
-  </body>
+</body>
 
 </html>

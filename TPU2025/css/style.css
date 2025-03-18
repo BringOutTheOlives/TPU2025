@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 input[type="text"], textarea{
@@ -31,6 +32,7 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    
   }
 
   .answersbox{
@@ -39,11 +41,24 @@ input[type=submit]:hover {
     justify-content: center;
     /* align-items: center; */
     text-align: left;
-    padding: 5px 0px 0px 10px;
+    padding: 10px 0px 0px 10px;
     gap: 5px;
   }
 
   .item{
     display: flex;
     flex-direction: row;
+    gap: 5px;
+    /* border: hotpink 1px solid; */
+  }
+
+  .textcontent{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 3px 2px 3px;
+    border: rgba(0, 0, 0, 0.651) 1px solid;
+    border-radius: 5px;
+    text-shadow: -0.5px 0.7px 2px rgba(0, 0, 0, 0.600);
+    border-style: dashed;
+    color:rgb(37, 35, 35);
   }
